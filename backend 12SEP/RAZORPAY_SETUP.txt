@@ -1,0 +1,8 @@
+RAZORPAY SETUP
+
+Add these to backend .env (do not commit real secrets):
+RAZORPAY_KEY_ID=your_test_or_live_key_id
+RAZORPAY_KEY_SECRET=your_test_or_live_key_secret
+
+The frontend requests an order from /api/payments/create-order and opens Razorpay Checkout. The backend verifies the payment signature at /api/payments/verify.
+SMTP remains controlled by GMAIL_USER and GMAIL_PASS for interview decision and payment confirmation emails.

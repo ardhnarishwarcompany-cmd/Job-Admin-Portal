@@ -1,0 +1,17 @@
+{
+  "watch": [
+    "index.js",
+    "controllers",
+    "routes",
+    "models",
+    "middleware",
+    "utils"
+  ],
+  "ext": "js,mjs",
+  "ignore": [
+    "node_modules/**",
+    "uploads/**",
+    ".git/**",
+    "package-lock.json"
+  ]
+}

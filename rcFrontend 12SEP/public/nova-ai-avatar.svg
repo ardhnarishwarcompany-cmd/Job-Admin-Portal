@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NOVA AI avatar</title>
+  <desc id="desc">Futuristic professional AI interviewer avatar for Recruweb.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#5b4fd7"/>
+      <stop offset=".55" stop-color="#22275e"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f7ff"/>
+      <stop offset="1" stop-color="#b9c7e8"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bca9ff"/>
+      <stop offset="1" stop-color="#4f8cff"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <circle cx="256" cy="256" r="250" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="224" fill="none" stroke="#8b7cff" stroke-opacity=".35" stroke-width="3"/>
+  <path d="M119 425c24-74 82-105 137-105s113 31 137 105" fill="#121b35" stroke="#6374c9" stroke-width="5"/>
+  <path d="M159 191c0-73 43-118 99-118 63 0 104 47 104 118v65c0 65-48 113-104 113s-99-48-99-113z" fill="url(#skin)" stroke="#dbe5ff" stroke-width="5"/>
+  <path d="M151 197c-7-83 34-132 106-132 77 0 115 54 102 139-20-17-36-44-42-70-40 34-91 51-161 43z" fill="url(#hair)" filter="url(#glow)"/>
+  <path d="M184 249c17-12 35-12 52 0M276 249c17-12 35-12 52 0" fill="none" stroke="#26365d" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="210" cy="257" r="7" fill="#6b5cff"/><circle cx="302" cy="257" r="7" fill="#6b5cff"/>
+  <path d="M221 307c22 15 48 15 70 0" fill="none" stroke="#465a8f" stroke-width="6" stroke-linecap="round"/>
+  <path d="M164 205c-22 4-30 24-22 42M348 205c22 4 30 24 22 42" fill="none" stroke="#90a8ff" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="92" cy="132" r="10" fill="#6ee7ff" filter="url(#glow)"/>
+  <circle cx="420" cy="368" r="8" fill="#a78bfa" filter="url(#glow)"/>
+  <path d="M80 365h72M360 140h72" stroke="#6d5ce7" stroke-width="4" stroke-linecap="round" stroke-opacity=".7"/>
+</svg>

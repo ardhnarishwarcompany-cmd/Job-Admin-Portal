@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#6d5ce7"/>
+      <stop offset="55%" stop-color="#25215f"/>
+      <stop offset="100%" stop-color="#080b18"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f8ff"/>
+      <stop offset="100%" stop-color="#aeb9ff"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <circle cx="256" cy="256" r="245" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="225" fill="none" stroke="#a78bfa" stroke-opacity=".35" stroke-width="3"/>
+  <circle cx="256" cy="256" r="205" fill="none" stroke="#38bdf8" stroke-opacity=".18" stroke-width="2"/>
+  <g filter="url(#glow)">
+    <path d="M157 210c0-79 44-122 99-122s99 43 99 122v77c0 77-42 128-99 128s-99-51-99-128z" fill="url(#skin)"/>
+    <path d="M151 221c-8-79 28-143 105-143 78 0 111 61 104 141-21-25-40-54-52-91-25 34-70 57-137 67z" fill="url(#hair)"/>
+    <path d="M173 207c20 18 53 28 86 28s66-10 86-28v69c0 59-37 105-86 105s-86-46-86-105z" fill="url(#skin)"/>
+    <ellipse cx="218" cy="258" rx="10" ry="13" fill="#27215f"/>
+    <ellipse cx="294" cy="258" rx="10" ry="13" fill="#27215f"/>
+    <circle cx="221" cy="254" r="3" fill="#fff"/>
+    <circle cx="297" cy="254" r="3" fill="#fff"/>
+    <path d="M225 319c19 14 43 14 62 0" fill="none" stroke="#4338ca" stroke-width="7" stroke-linecap="round"/>
+    <path d="M178 205c19 10 41 15 62 15M334 205c-19 10-41 15-62 15" fill="none" stroke="#6366f1" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <circle cx="92" cy="110" r="7" fill="#38bdf8"/>
+  <circle cx="420" cy="150" r="5" fill="#a78bfa"/>
+  <circle cx="411" cy="370" r="7" fill="#22d3ee"/>
+</svg>
